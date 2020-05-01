@@ -84,6 +84,7 @@ export const CharacterList: React.FC = () => {
           page={pagination.page}
           count={pagination.totalPages}
           color="primary"
+          size="small"
           onChange={handleChangePage}
         />
       </div>
